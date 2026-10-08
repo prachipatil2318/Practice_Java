@@ -64,9 +64,32 @@ public class main {
             // }
 
             // Reveresed the array
-            int[] arr={1,2,3,4,5};
-            for(int i=arr.length-1;i>=0;i--){
-                System.out.println(arr[i]);
+            // int[] arr={1,2,3,4,5};
+            // for(int i=arr.length-1;i>=0;i--){
+            //     System.out.println(arr[i]);
+            // }
+
+            // pattern 
+            // *** *** ***
+            // *** *** ***
+            // *** *** *** 
+            for(int k=1;k<=3;k++){
+                for(int l=1;l<=3;l++){
+                    System.out.print("*** ");
+                }
+                System.out.println();
+            }
+
+
+            // Pattern
+            // 0123
+            // 1234
+            // 2345
+             for(int i=0;i<=3;i++){
+                for(int j=0;j<=3;j++){
+                    System.out.print(i+j);
+                }
+                System.out.println();
             }
     }
 }
