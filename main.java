@@ -1,3 +1,5 @@
+import java.lang.reflect.Array;
+
 public class main {
     public static void main(String[] args) {
         // For Loop
@@ -65,31 +67,51 @@ public class main {
 
             // Reveresed the array
             // int[] arr={1,2,3,4,5};
+            // using for loop
             // for(int i=arr.length-1;i>=0;i--){
             //     System.out.println(arr[i]);
+            // }
+            // Using while loop
+            // int i=arr.length-1;
+            // while(i>=0){
+            //     System.out.println(arr[i]);
+            //     i--;
+            // }
+
+            // int start=0;
+            // int end= arr.length-1;
+            // while(start<end){
+            //     int temp=arr[start];
+            //     arr[start]=arr[end];
+            //     arr[end]=temp;
+            //     start++;
+            //     end--;
+            // }
+            // for(int num:arr){
+            //     System.out.println(num);
             // }
 
             // pattern 
             // *** *** ***
             // *** *** ***
             // *** *** *** 
-            for(int k=1;k<=3;k++){
-                for(int l=1;l<=3;l++){
-                    System.out.print("*** ");
-                }
-                System.out.println();
-            }
+            // for(int k=1;k<=3;k++){
+            //     for(int l=1;l<=3;l++){
+            //         System.out.print("*** ");
+            //     }
+            //     System.out.println();
+            // }
 
 
             // Pattern
             // 0123
             // 1234
             // 2345
-             for(int i=0;i<=3;i++){
-                for(int j=0;j<=3;j++){
-                    System.out.print(i+j);
-                }
-                System.out.println();
-            }
+            // for(int i=0;i<=3;i++){
+            //     for(int j=0;j<=3;j++){
+            //         System.out.print(i+j);
+            //     }
+            //     System.out.println();
+            // }
     }
 }
